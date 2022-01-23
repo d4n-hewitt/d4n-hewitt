@@ -4,7 +4,7 @@ I aim to automate most of the file generation, job submission, and data extracti
 This GitHub is a repository for some of these scripts that might be useful for others or give ideas on how to set up high-throughput workflows.  
 I also aim to include some of my ML architectures in coming months.  
 
-#Generate Adsorption Profiles
+# Generate Adsorption Profiles
 
 
 
