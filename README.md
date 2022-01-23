@@ -9,6 +9,14 @@ Generate Adsorption Profiles (GAP) is a tool I've made to allow visualisation of
 
 An example of the '.pdb' files created from a RASPA output are provided for the three xylene isomers adsorbing in a hypothetical zeolite framework during a competitive adsorption simulation. Provided also is an example of the html file produced by running the script in this directory, which can be viewed in a browser allowing interactive viewing of the adsorption profile in 3D. Buttons have been provided to allow the removal of the Framework or adsorbates in order to more easily view the adsorption behaviour.
 
+# dcTST Setup  
+This directory contains an example of how to set up the first stages of a dcTST calculation on a high-throughput scale for many different zeolites. The calculation essentially generates a free energy profile for the adsorbate in the system, however a similar workflow could be used to produce input files for any other type of RASPA simulation on a high-throughput scale.  
+
+# Utility Scripts  
+This directory contains a few useful utility scripts I've written to help my work.  
+The p1 converter script allows rapid transformation of any CIF file with symmetry transformations present into the p1 symmmetry group - incredibly useful if you're using the Deem or IZA-SC databases of zeolites and wish to see the full coordinates of a unit cell.  
+The GCMC extractor tool can be used at the end of a series of RASPA calculations in order to extract useful data such as the loading and errors in the loading, and writes the data into a '.csv' format. This allows the file to be easily read into a Pandas dataframe for analysis.  
+The Unique Crystal generator script produces unique aluminosilicate structures given a base silicate structure. This will see use in future publications...
 
 
 
