@@ -1,4 +1,4 @@
-Hey, I'm Dan and I'm currently a PhD student at UCL working on modelling nanoporous materials for their adsorption properties. I use a mix of classical and quantum simulations in order to model zeolites for their potential use in numerous industrial applications.
+Hey, I'm Dan and I'm currently a PhD student at UCL working on modelling nanoporous materials for their adsorption properties. I use a mix of classical and quantum simulations in order to model zeolites for their potential use in numerous industrial applications.  
 This GitHub is a repository for some of the scripts I've written to automate my work. Check out my Adsorption Profile generator for simple visulation of adsorption behaviour in zeolites!
 
 # Generate Adsorption Profiles
