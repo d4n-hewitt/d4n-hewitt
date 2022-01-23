@@ -6,11 +6,11 @@ I also aim to include some of my ML architectures in coming months.
 
 # Generate Adsorption Profiles
 
-Generate Adsorption Profiles (GAP) is a tool I've made to allow visualisation of adsorbates in zeolite structures using the output pdb files from RASPA. The **OOP2_GAP.py** script available in the **Adsorption_Profiles** directory can be run in the Movies/System_0 directory of any RASPA calculation where guest molecule positions are printed to the Movie files.
+Generate Adsorption Profiles (GAP) is a tool I've made to allow visualisation of adsorbates in zeolite structures using the output pdb files from RASPA. The **OOP2_GAP.py** script available in the **Adsorption_Profiles** directory can be run in the Movies/System_0 directory of any RASPA calculation where guest molecule positions are printed to the Movie files.  
 
-![alt text](https://github.com/d4n-hewitt/d4n-hewitt/blob/main/Adsorption_Profiles/Example_image.png?raw=true)
+![alt text](https://github.com/d4n-hewitt/d4n-hewitt/blob/main/Adsorption_Profiles/Example_image.png?raw=true)  
 
-
+An example of the '.pdb' files created from a RASPA output are provided for the three xylene isomers adsorbing in a hypothetical zeolite framework during a competitive adsorption simulation. Provided also is an example of the html file produced by running the script in this directory, which can be viewed in a browser allowing interactive viewing of the adsorption profile in 3D. Buttons have been provided to allow the removal of the Framework or adsorbates in order to more easily view the adsorption behaviour.
 
 
 
