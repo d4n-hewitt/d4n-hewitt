@@ -1,0 +1,4 @@
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+Adsorption_Profiles/*.html filter=lfs diff=lfs merge=lfs -text
+Adsorption_Profiles/*.pdb filter=lfs diff=lfs merge=lfs -text
