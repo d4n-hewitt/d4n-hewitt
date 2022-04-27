@@ -1,0 +1,62 @@
+SimulationType                MonteCarlo
+NumberOfCycles                50000
+NumberOfEquilibrationCycles   50000
+NumberOfInitializationCycles  20000
+PrintEvery                    1000
+PrintPropertiesEvery          1000
+Movies no
+
+ChargeMethod Ewald
+CutOff 14
+EwaldPrecision 1e-6
+CutOffVDW 14.0
+
+Framework 0
+FrameworkName 8045660_p1
+RemoveAtomNumberCodeFromLabel yes
+UnitCells 4 4 3
+
+ExternalTemperature 523
+ExternalPressure 1.5E6
+
+Component 0 MoleculeName              ortho_xylene
+            StartingBead              0
+            MolFraction               0.229
+            MoleculeDefinition        TraPPE
+            IdealGasRosenbluthWeight     1.00031
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            IdentityChangeProbability 1.0
+              NumberOfIdentityChanges 2
+              IdentityChangesList     1 2
+            CFSwapLambdaProbability   1.0
+            CreateNumberOfMolecules   0
+
+Component 1 MoleculeName              meta_xylene
+            StartingBead              0
+            MolFraction               0.536
+            MoleculeDefinition        TraPPE
+            IdealGasRosenbluthWeight     1.00031
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            IdentityChangeProbability 1.0
+              NumberOfIdentityChanges 2
+              IdentityChangesList     0 2
+            CFSwapLambdaProbability   1.0
+            CreateNumberOfMolecules   0
+
+Component 2 MoleculeName              para_xylene
+            StartingBead              0
+            MolFraction               0.235
+            MoleculeDefinition        TraPPE
+            IdealGasRosenbluthWeight     1.00031
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            IdentityChangeProbability 1.0
+              NumberOfIdentityChanges 2
+              IdentityChangesList     0 1
+            CFSwapLambdaProbability   1.0
+            CreateNumberOfMolecules   0
